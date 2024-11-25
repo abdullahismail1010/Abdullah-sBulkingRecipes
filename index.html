@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Abdullah's Recipes</title>
+    <link rel="stylesheet" href="cssfile.css">
+    <script src="jsfile.js" type="module"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="manifest" href="/manifest.json">
+
+</head>
+<body style="background-color:powderblue;">
+    <nav>
+        <h1>Abdullah's Bulking Recipes</h1>
+        <div class="button-container">
+            <a href="Pages/About.html">
+                <button class="About">About</button>
+            </a>
+            <a href="Pages/Suggest_A_Recipe.html">
+                <button class="Suggest">Go to Suggest a Recipe Page</button>
+            </a>
+        </div>
+        <h4 style="font-family: 'Bebas Neue', serif; font-size: 30px;">Recipes:</h4>
+    </nav>
+    
+    <div class="containers">
+        <div class="container">
+            <p class="Food_Name">High Calorie Milkshake</p>
+            <a href="Pages/Recipies/HCM.HTML">
+                <button class="recipe-button">See Recipe</button>
+            </a>
+        </div>
+        
+        <div class="container">
+            <p class="Food_Name">High Calorie Beef Mince Pasta</p>
+            <a href="Pages/Recipies/HCBMP.HTML">
+                <button class="recipe-button">See Recipe</button>
+            </a>
+        </div>
+        <div class="container">
+            <p class="Food_Name">Bagel and 5 Eggs</p>
+            <a href="Pages/Recipies/BA5E.HTML">
+                <button class="recipe-button">See Recipe</button>
+            </a>
+        </div>
+        <div class="container">
+            <p class="Food_Name">Chicken Wraps</p>
+            <a href="Pages/Recipies/CW.HTML">
+                <button class="recipe-button">See Recipe</button>
+            </a>
+        </div>
+        <div class="container">
+            <p class="Food_Name">Tacos</p>
+            <a href="Pages/Recipies/TACOS.HTML">
+                <button class="recipe-button">See Recipe</button>
+            </a>
+        </div>
+        <div class="container">
+            <p class="Food_Name">Special Sandwich</p>
+            <a href="Pages/Recipies/SS.HTML">
+                <button class="recipe-button">See Recipe</button>
+            </a>
+        </div>
+        <div class="container">
+            <p class="Food_Name">Burrito</p>
+            <a href="Pages/Recipies/Burrito.HTML">
+                <button class="recipe-button">See Recipe</button>
+            </a>
+        </div>
+        <div class="container">
+            <p class="Food_Name">Chicken Rice Bowl</p>
+            <a href="Pages/Recipies/CRB.HTML">
+                <button class="recipe-button">See Recipe</button>
+            </a>
+        </div>
+    </div>
+    <script>
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js', { scope: '/' });
+    }
+    </script>
+</body>
+</html>

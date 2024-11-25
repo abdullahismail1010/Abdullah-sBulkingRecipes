@@ -1,0 +1,186 @@
+.bebas-neue-regular {
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Recipe_Title{
+    font-family: "Bebas Neue", serif;
+    text-align: center; 
+}
+
+
+
+.container_r {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+
+.recipe_container, .steps_container {
+    width: 45%;
+}
+
+
+.steps_container h3 {
+    text-align: left;
+}
+
+
+.about_section h3 {
+    font-size: 1.5em;
+}
+
+.about_section p {
+    font-size: 1.1em;
+    line-height: 1.5;
+    color: #333;
+}
+
+.about_section h4 {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.about_section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.about_section ul li {
+    font-size: 1.1em;
+}
+
+button_s{
+    padding: 10px 20px;
+    background-color: #66a3ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #5599e6;
+}
+
+h1 {
+    text-align: center; 
+    font-size: 40px;
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.containers {
+    display: grid;           
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px;               
+    margin: 20px;            
+}
+
+button{
+    font-family: "Bebas Neue", serif; 
+}
+
+.container {
+    width: 300px; 
+    height: 150px;
+    padding: 15px; 
+    background-color: white; 
+    border: 1px solid #0c0c0c; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    text-align: center;   
+    border-radius: 12px; 
+}
+
+.Food_Name {
+    font-size: 24px;         
+    text-align: center;
+    margin-top: 90px;
+    font-family: "Bebas Neue", serif;        
+}
+
+h2 {
+    text-align:right;
+}
+
+.recipe-button {
+    font-family: "Bebas Neue", serif;
+}
+
+.About, .Suggest {
+    font-family: "Bebas Neue", serif;  
+    font-size: 20px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 20px;  
+}
+
+.About {
+    font-family: "Bebas Neue", serif;
+    
+}
+
+.Suggest {
+    font-family: "Bebas Neue", serif;/
+}
+
+.recipe-form input, .recipe-form textarea {
+    background-color: #b0e0e6; 
+    border: 1px solid #66a3ff;  
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;  
+    font-family: "Bebas Neue", serif;
+}
+
+
+#submitRecipe {
+    font-family: "Bebas Neue", serif;
+}
+
+.info-text {
+    width: 80%;               
+    margin: 20px auto 0;       
+    padding: 15px;            
+    background-color: #f0f8ff; 
+    border-radius: 8px;       
+    text-align: center;      
+    font-family: "Bebas Neue", serif;
+    color: #333;            
+    font-size: 16px;         
+}
+
+.about_section{
+    font-family: "Bebas Neue", serif;
+}
+.steps_container{
+    font-family: "Bebas Neue", serif;
+}
+
+.recipe_container{
+    font-family: "Bebas Neue", serif;
+}
+
+.Back{
+    font-family: "Bebas Neue", serif;    
+}
+
+.About_Info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    text-align: center; 
+    font-family: "Bebas Neue", serif;
+}
