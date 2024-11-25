@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Suggest A Recipe</title>
+    <link rel="stylesheet" href="../cssfile.css">
+    <script src="../jsfile.js" type="module"></script> 
+    
+    <script src="https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.15.0/firebase-firestore.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body style="background-color:powderblue;">
+    <h1>Suggest A Recipe</h1>
+
+    <div class="recipe-form">
+        <input type="text" id="recipeName" placeholder="Enter recipe name" required>
+        <textarea id="recipeSteps" placeholder="Enter recipe steps" required></textarea>
+        <textarea id="recipeIngredients" placeholder="Enter recipe ingredients" required></textarea>
+        <button id="submitRecipe">Submit</button>
+    </div>
+
+    <div class="info-text">
+        <p>You can submit your suggested recipe here, from here it will be transferred to the database and be reviewed</p>
+    </div>
+
+    <a href="../index.html">
+        <button class="Back">Back</button>
+    </a>
+
+</body>
+</html>
